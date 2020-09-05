@@ -24,7 +24,7 @@ const Cake = [
     name: "Creame Cake",
     image: "images/cake_6.jpg"
   }
- 
+
 ];
 const showCake = () => {
   let output = "";
@@ -42,12 +42,3 @@ const showCake = () => {
 };
 
 document.addEventListener("DOMContentLoaded", showCake);
-
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", function() {
-    navigator.serviceWorker
-      .register("/serviceWorker.js")
-      .then(res => console.log("service worker registered"))
-      .catch(err => console.log("service worker not registered", err));
-  });
-}
