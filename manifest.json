@@ -1,7 +1,7 @@
 {
   "name": "Lets bake it",
   "short_name": "bake",
-  "start_url": "index.html",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#fdfdfd",
   "theme_color": "#db4938",
