@@ -2,10 +2,9 @@
   "name": "Lets bake it",
   "short_name": "bake",
   "start_url": "/cakeshop/index.html",
-  "display": "standalone",
-  "background_color": "#fdfdfd",
-  "theme_color": "#db4938",
-  "orientation": "portrait-primary",
+  "background_color": "purple",
+  "description": "Shows random fox pictures. Hey, at least it isn't cats.",
+  "display": "fullscreen",
   "icons": [
     {
       "src": "/images/icons/icon-72x72.png",
