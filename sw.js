@@ -5,16 +5,16 @@ self.addEventListener('install', function (e) {
     e.waitUntil(
         caches.open('airhorner').then(function (cache) {
             return cache.addAll([
-                '/',
-                '/index.html',
-                "/css/style.css",
-                "/src/app.js",
-                "/images/cake_1.jpg",
-                "/images/cake_2.jpg",
-                "/images/cake_3.jpg",
-                "/images/cake_4.jpg",
-                "/images/cake_5.jpg",
-                "/images/cake_6.jpg"
+                '/cakeshop',
+                '/cakeshop/index.html',
+                "/cakeshop/css/style.css",
+                "/cakeshop/src/app.js",
+                "/cakeshop/images/cake_1.jpg",
+                "/cakeshop/images/cake_2.jpg",
+                "/cakeshop/images/cake_3.jpg",
+                "/cakeshop/images/cake_4.jpg",
+                "/cakeshop/images/cake_5.jpg",
+                "/cakeshop/images/cake_6.jpg"
             ]);
         })
     );
